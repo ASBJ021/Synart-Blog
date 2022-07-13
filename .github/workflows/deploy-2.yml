@@ -18,7 +18,7 @@ jobs:
           npm install
           CI=false npm run build
           npm run export
-          touch /out/.nojekyll
+          touch ./out/.nojekyll
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
