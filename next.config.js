@@ -3,6 +3,6 @@ module.exports = {
     loader: 'imgix',
     path: 'https://synart.in/',
   },
-  basePath: 'Synart-Blog/pages',
+  basePath: '/pages',
   
 };
