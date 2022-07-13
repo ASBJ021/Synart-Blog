@@ -1,6 +1,8 @@
 module.exports = {
   images: {
     loader: 'imgix',
-    path: 'asbj021.github.io',
+    path: 'https://synart.in/',
   },
+  basePath: 'Synart-Blog/pages',
+  
 };
